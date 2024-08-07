@@ -2,7 +2,7 @@
 
 Welcome to the Number Sequence Game! This is a simple game where players click on numbers in ascending order. The game includes a timer and provides feedback when all numbers are clicked in the correct order.
 
-![Example Image](./images/gameplay.png)
+![Example Image](./public/images/gameplay.png)
 
 ## Features
 
