@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Number Sequence Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Number Sequence Game! This is a simple game where players click on numbers in ascending order. The game includes a timer and provides feedback when all numbers are clicked in the correct order.
 
-## Available Scripts
+![Example Image](./images/gameplay.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Input to specify the number of elements in the game.
+- Randomly positioned numbers within the game area.
+- Timer to track the duration of the game.
+- Feedback when all numbers are clicked in the correct order.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the project locally, follow these steps:
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js and npm (or Yarn) installed on your machine.
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/baophuchuynhngoc/number-clicker-game.git
+2. **Navigate to the Project Directory**
+    ```bash
+    cd number-sequence-game
+3. **Install Dependencies**
+    ```bash
+    npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Or if using Yarn:
+    ```bash
+    yarn install
+4. **Start the Development Server**
+     ```bash
+    npm start
 
-### `npm run eject`
+    Or if using Yarn:
+    ```bash
+    yarn start
+    This will open the game in your default web browser.
+## How to play
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Enter the Number of Elements**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    In the input field, enter the number of elements you want in the game and click the "Start Game" button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Click on the Numbers**
 
-## Learn More
+    Numbers will appear randomly within the game area. Click on the numbers in ascending order, starting from 1.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Complete the Game**
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    When all numbers are clicked in the correct order, the game will display "ALL CLEAR" and the timer will stop.
